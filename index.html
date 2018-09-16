@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Blurd</title>
+</head>
+
+<body>
+
+    <header id="show">
+        <div class="content">
+            <img src="log.png" width="200px" height="300px" alt="">
+            <div class="title">
+                Welcom to My Channel
+            </div>
+
+            <div class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum commodi quidem eum aliquid
+                numquam! Quisquam accusantium quis pariatur sed iusto.</div>
+        </div>
+    </header>
+
+    <section id="services">
+        <div class="container grid-3">
+            <i class="fab fa-youtube fa-3x"></i>
+            <h3>youtube</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, nesciunt.</p>
+        </div>
+
+        <div class="container grid-3">
+            <i class="fas fa-chalkboard-teacher fa-3x"></i>
+            <h3>courses</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, nesciunt.</p>
+        </div>
+
+        <div class="container grid-3">
+            <i class="fas fa-briefcase fa-3x"></i>
+            <h3>freelancer projects</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, nesciunt.</p>
+        </div>
+    </section>
+
+    <div id="particles">
+        <div class="login">
+            <form id="form" action="">
+                <label for="">First</label>
+                <input type="text">
+                <br>
+                <label for="">Last</label>
+                <input type="text">
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <section id="about">
+        <div class="container">
+
+            <div class="center">
+                <i class="fas fa-laptop-code fa-10x"></i>
+            </div>
+
+            <div class="cont">
+                <h3>about us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum esse aliquid ea exercitationem quaerat
+                    autem fuga voluptas necessitatibus, facere maxime!</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="center">
+        <p>Nabil Fannane &copy; 2018</p>
+    </footer>
+
+
+    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+        particlesJS.load('particles', 'particles.json', function () {
+            console.log('callback - particles-js config loaded');
+        });
+    </script>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.about', {
+            duration: 3000,
+            origin: 'left'
+        });
+        sr.reveal('.services', {
+            duration: 2000,
+            origin: 'right',
+            distance: '300px'
+        });
+        sr.reveal('.about', {
+            duration: 2000,
+            origin: 'left',
+            distance: '300px'
+        });
+        sr.reveal('.showcase-btn', {
+            duration: 2000,
+            delay: 2000,
+            origin: 'bottom'
+        });
+        sr.reveal('#testimonial div', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+        sr.reveal('.info-left', {
+            duration: 2000,
+            origin: 'left',
+            distance: '300px',
+            viewFactor: 0.2
+        });
+        sr.reveal('.info-right', {
+            duration: 2000,
+            origin: 'right',
+            distance: '300px',
+            viewFactor: 0.2
+        });
+    </script>
+
+
+</body>
+
+</html>
